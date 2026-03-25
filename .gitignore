@@ -137,3 +137,41 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+# --- Node.js/NPM ---
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+yarn.lock         # Optional: Remove if you commit lockfiles
+
+# --- Angular/Build Output ---
+dist/
+tmp/
+out-tsc/
+angular-app/dist/
+*.log
+
+# --- IDEs/Editors ---
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Environment/Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Coverage/Reports ---
+coverage/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db

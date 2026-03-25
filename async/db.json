@@ -1,0 +1,24 @@
+{
+  "movies": [
+    { "id": 1, "title": "The Shawshank Redemption", "year": 1994, "duration": "142 min", "rating": 9.3, "genre": "Drama" },
+    { "id": 2, "title": "The Godfather", "year": 1972, "duration": "175 min", "rating": 9.2, "genre": "Crime" },
+    { "id": 3, "title": "The Dark Knight", "year": 2008, "duration": "152 min", "rating": 9.0, "genre": "Action" },
+    { "id": 4, "title": "Pulp Fiction", "year": 1994, "duration": "154 min", "rating": 8.9, "genre": "Crime" },
+    { "id": 5, "title": "Inception", "year": 2010, "duration": "148 min", "rating": 8.8, "genre": "Sci-Fi" },
+    { "id": 6, "title": "Fight Club", "year": 1999, "duration": "139 min", "rating": 8.8, "genre": "Drama" },
+    { "id": 7, "title": "Forrest Gump", "year": 1994, "duration": "142 min", "rating": 8.8, "genre": "Drama" },
+    { "id": 8, "title": "The Matrix", "year": 1999, "duration": "136 min", "rating": 8.7, "genre": "Sci-Fi" },
+    { "id": 9, "title": "Goodfellas", "year": 1990, "duration": "145 min", "rating": 8.7, "genre": "Biography" },
+    { "id": 10, "title": "Seven", "year": 1995, "duration": "127 min", "rating": 8.6, "genre": "Crime" },
+    { "id": 11, "title": "Interstellar", "year": 2014, "duration": "169 min", "rating": 8.6, "genre": "Sci-Fi" },
+    { "id": 12, "title": "Parasite", "year": 2019, "duration": "132 min", "rating": 8.5, "genre": "Thriller" },
+    { "id": 13, "title": "The Prestige", "year": 2006, "duration": "130 min", "rating": 8.5, "genre": "Mystery" },
+    { "id": 14, "title": "Gladiator", "year": 2000, "duration": "155 min", "rating": 8.5, "genre": "Action" },
+    { "id": 15, "title": "The Departed", "year": 2006, "duration": "151 min", "rating": 8.5, "genre": "Crime" },
+    { "id": 16, "title": "Whiplash", "year": 2014, "duration": "106 min", "rating": 8.5, "genre": "Music" },
+    { "id": 17, "title": "The Lion King", "year": 1994, "duration": "88 min", "rating": 8.5, "genre": "Animation" },
+    { "id": 18, "title": "Joker", "year": 2019, "duration": "122 min", "rating": 8.4, "genre": "Crime" },
+    { "id": 19, "title": "Spider-Man: Across the Spider-Verse", "year": 2023, "duration": "140 min", "rating": 8.6, "genre": "Animation" },
+    { "id": 20, "title": "Oppenheimer", "year": 2023, "duration": "180 min", "rating": 8.4, "genre": "History" }
+  ]
+}
