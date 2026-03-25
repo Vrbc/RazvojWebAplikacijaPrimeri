@@ -1,0 +1,7 @@
+npm create vite@latest - Za kreiranje projekta
+
+npm install rxjs
+npm install json-server
+
+nmp run dev - za projekat
+npm run server - za json server (api)
