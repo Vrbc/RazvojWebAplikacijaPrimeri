@@ -4,4 +4,4 @@ npm install rxjs
 npm install json-server
 
 nmp run dev - za projekat
-npm run server - za json server (api)
+npm run api - za json server (api)
