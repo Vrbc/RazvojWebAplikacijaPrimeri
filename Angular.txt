@@ -1,0 +1,35 @@
+ng new ime_projekta - kreira angluar porjekat
+ng serve - pali aplikaciju u dev modu, ima hot reload
+
+ng generate - za generisanje necega
+ng generate component components/aircraft-profile
+ng g component components/aircrafts-list
+
+
+
+Za lokalna stanja objekata signale - ovo je novije, za jednostavnije use case-eve
+Za komplikovanije tokove koristis isto kao rxjs
+
+U root-u stoje konfiguracioni fajlovi:
+prettierrc - na save ti formatira kod, da izgleda lepo
+
+Svaka komponenta ima 4 dela:
+.html
+.ts
+.spec.ts - za testove
+.css - za izgled komponente
+
+css je embedded samo za tu komponentu, tako da ga druge komponente ne vide.
+
+app.html je izgenerisan html, koji se na kraju prikazije na stranici.
+
+{{ title() }} - u html, mozes da pises direktno imena promenljvih, interpolacija
+
+Postoje input i output parametri, pise su u html u.
+() - za output parametre, evente, sve sto stoji u "" je ts izraz, ne string.
+
+
+Ranije smo imali Zone JS, koji prati promene u kodu, i automatski azurira 
+DOM. Bio je jako neefikasan, danas se ne koristi, ali je bio jedino resenje.
+Danas se koriste observable da "jave" kada se proemne, ne treba nam dodatni 
+mehanizam za promene.
