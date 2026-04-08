@@ -1,0 +1,13 @@
+Zdravo {{ title() }}
+<p>
+  <button (click)="increment()"> Counter: {{ counter() }} </button>
+</p>
+<app-aircraft-profile 
+[aircraftId]="'ABC'", 
+[aircraftType]="'Boeing'", 
+[speed]="123", 
+[attitude]="5000"></app-aircraft-profile>
+
+<app-aircrafts-list
+></app-aircrafts-list>
+<router-outlet />

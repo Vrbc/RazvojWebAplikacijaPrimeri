@@ -1,0 +1,8 @@
+<p>List of aircrafts</p>
+
+@for (aircraft of aircrafts(); track aircraft.aircraftId){
+    <app-aircraft-profile 
+    [aircraftId]="aircraft.aircraftId">
+
+    </app-aircraft-profile>
+}
